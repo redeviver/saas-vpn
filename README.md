@@ -230,6 +230,32 @@ https://seu-dominio.com/api
 * verificar build React
 
 ---
+⚡ 🧨 install.sh (DEPLOY 1-CLICK COMPLETO)
+
+▶️ COMO USAR
+# bash
+
+wget https://seusite.com/install.sh
+chmod +x install.sh
+sudo ./install.sh
+
+🧠 O que esse script faz
+
+✔ instala Docker
+✔ cria estrutura do projeto
+✔ sobe backend + frontend
+✔ configura Nginx
+✔ gera SSL automático com Let's Encrypt
+✔ ativa HTTPS
+✔ configura renovação automática
+
+⚠️ IMPORTANTE (sem isso não funciona)
+
+Antes de rodar:
+
+seu domínio PRECISA apontar para o IP da VPS
+portas 80 e 443 abertas
+
 
 ## 📄 Licença
 
